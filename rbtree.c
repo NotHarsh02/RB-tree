@@ -147,10 +147,9 @@ void red_black_insert(int key){
 void red_black_insert_fixup(struct node *z){
 	while(z->parent->color == RED){
 
-		/* z's parent is left child of z's grand parent*/
 		if(z->parent == z->parent->parent->left){
 
-			/* z's grand parent's right child is RED */
+			
 			if(z->parent->parent->right->color == RED){
 				z->parent->color = BLACK;
 				z->parent->parent->right->color = BLACK;
@@ -158,7 +157,7 @@ void red_black_insert_fixup(struct node *z){
 				z = z->parent->parent;
 			}
 
-			/* z's grand parent's right child is not RED */
+			
 			else{
 				
 				/* z is z's parent's right child */
