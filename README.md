@@ -11,7 +11,7 @@ The red-Black tree is a binary search tree.Each node in the Red-black tree conta
 <br>Every path from a node (including root) to any of its descendants NULL nodes has the same number of black nodes.
 <br>All leaf nodes are black nodes.
 
-#Insertions in red black tree
+# Insertions in red black tree
 <br>While inserting a new node, the new node is always inserted as a RED node. After insertion of a new node, if the tree is violating the properties of the red-black tree then, we do the following operations.
 
 <br>Recolor
