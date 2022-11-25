@@ -1,5 +1,4 @@
-# RB-tree-implementation
-The implementation of the rb tree data structure using c++
+# RB-tree
 <br>DAA Assignment
 <br>Name:Harsh Sherekar
 <br>Roll no :A_42(5th sem)
@@ -11,6 +10,8 @@ The red-Black tree is a binary search tree.Each node in the Red-black tree conta
 <br>There are no two adjacent red nodes (A red node cannot have a red parent or red child).
 <br>Every path from a node (including root) to any of its descendants NULL nodes has the same number of black nodes.
 <br>All leaf nodes are black nodes.
+
+#Rotations in red black tree
 
 
 
