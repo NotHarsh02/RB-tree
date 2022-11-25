@@ -16,7 +16,7 @@ The red-Black tree is a binary search tree.Each node in the Red-black tree conta
 
 <br>Recolor
 <br>Rotation
-#Rotations in red black tree
+# Rotations in red black tree
 <br>There are two types of rotations:
 
 <br>Left Rotation
