@@ -50,6 +50,21 @@ The red-Black tree is a binary search tree.Each node in the Red-black tree conta
  ```
 <br>Right left rotation can be done by first shifting to left and then right.
 <br>Left right rotation can be done by first shifting to the right and then left.
+# Operations performed in the code:
+1.Left rotate 
+2.Right rotate
+3.Insert
+4.Delete
+
+# Applications of rb tree:
+1.In the java collections library,TreeSet,TreeMap and hashmap are implemented using the red black tree.
+2.The Completely Fair Scheduler in the Linux kernel uses this data structure.
+3.MySQL also uses Red-Black Tree indexing to reduce the searching and insertion time.
+4.To implement Standard Template Libraries (STL) in C++: multiset, map, multimap.
+5.To implement finite maps.
+
+
+
 
 
 
