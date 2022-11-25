@@ -114,10 +114,7 @@ void red_black_insert(int key){
 	x = ROOT;
 	y = NILL;
 
-	/* 
-	 * Go through the tree untill a leaf(NILL) is reached. y is used for keeping
-	 * track of the last non-NILL node which will be z's parent.
-	 */
+
 	while(x != NILL){
 		y = x;
 		if(z->key <= x->key){
