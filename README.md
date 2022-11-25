@@ -35,6 +35,21 @@ The red-Black tree is a binary search tree.Each node in the Red-black tree conta
 7.left [y] ← x.
 8.p [x] ← y.
  ```
+ # Right rotate
+ ```
+ LEFT ROTATE (T, x)
+
+1.y ← left [x]
+2.y ← left [x]
+3.left [x] ← right [y]
+4.p [right[y]] ← x
+5.p[y] ← p[x]
+6.If p[x] = nil [T] then root [T] ← y else if x = left [p[x]] then left [p[x]] ← y else right [p[x]] ← y
+7.right [y] ← x.
+8.p [x] ← y.
+ ```
+<br>Right left rotation can be done by first shifting to left and then right.
+<br>Left right rotation can be done by first shifting to the right and then left.
 
 
 
